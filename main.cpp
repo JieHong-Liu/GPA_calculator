@@ -2,7 +2,6 @@
 //  main.cpp
 //  計算GPA
 //
-//  Created by 劉杰閎 on 2019/7/7.
 //  Copyright © 2019 Justin. All rights reserved.
 //
 
