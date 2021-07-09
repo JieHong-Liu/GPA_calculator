@@ -12,15 +12,14 @@ function CalculateGPA() {
 
     for(let i = 0; i < score.length; i++)
     {
-        // totalScore = Number(totalScore) + Number((Number(score[i])*Number(LevelScore[i])));       
+        totalScore = Number(totalScore) +  Number(score[i])*Number(LevelScore[i]);
         totalCredits = totalCredits + Number(score[i]);
     }
-    alert("total Credits = " + totalCredits);
+    alert(totalScore);   
+    console.log(totalScore);
     document.getElementById("Total Credits").innerHTML=('Total credits: '+ totalCredits);
-    alert(totalCredits);
-    // document.getElementById("Total Scores").innerHTML=('Total Score: '+totalScore);
-    // document.getElementById("GPA Result").innerHTML=('Your GPA IS: '+totalScore/totalCredits);
-    // alert(typeof(totalCredits));
+    document.getElementById("Total Scores").innerHTML=('Total Score: '+ totalScore);
+    document.getElementById("GPA Result").innerHTML=('Your GPA IS: '+totalScore/totalCredits);
 }
 
 
