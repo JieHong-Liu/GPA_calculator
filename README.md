@@ -1,4 +1,8 @@
 # GPA_calculator
+
++ website: https://jiehong-liu.github.io/GPA_calculator/index.html
++ C++: You can compile by yourself, the source code is here.
+
 The calculator for counting GPA.
 
 The Full score is stand for A+ (4.3)

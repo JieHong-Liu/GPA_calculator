@@ -1,13 +1,50 @@
-<!DOCTYPE html> // This defines that this document is an HTML5 document
-<html> // This is the root element of an HTML page
-<head> // This contains meta information about the HTML page
-    <title>GPA Calculator</title> // 這個網頁上方顯示的網頁名稱
+<!DOCTYPE html> 
+<html> 
+<head> 
+    <title>GPA Calculator</title> 
 </head>
 
-<body> // This defines the document's body, and is a container for all the visible contents, such as headings, paragraphs, images, hyperlinks, tables, lists, etc.
+<body>
 
-<h1>My First Heading</h1> //heading h1~6可以選擇不同大小的標題
-<p>My first paragraph.</p> // p for paragraph 
+<h1>Calculate GPA here!</h1> 
+<form>
+    <label for="A plus">A+:</label><br>
+    <input type="text" id="A plus" class= "input-score" ><br>
+    <label for="A">A:</label><br>
+    <input type="text" id="A" class= "input-score" ><br>
+    <label for="A minus" >A-:</label><br>
+    <input type="text" id="A minus" class= "input-score" ><br>
+
+    <label for="B plus">B+:</label><br>
+    <input type="text" id="B plus" class= "input-score" ><br>
+    <label for="B">B:</label><br>
+    <input type="text" id="B" class= "input-score"><br>
+    <label for="B minus">B-:</label><br>
+    <input type="text" id="B minus" class= "input-score"><br>
+
+    <label for="C plus">C+:</label><br>
+    <input type="text" id="C plus" class= "input-score" ><br>
+    <label for="C">C:</label><br>
+    <input type="text" id="C" class= "input-score" ><br>
+    <label for="C minus">C-:</label><br>
+    <input type="text" id="C minus:" class= " input-score"><br>
+
+    <label for="D">D:</label><br>
+    <input type="text" id="D" class= "input-score"><br>
+
+    <label for="E">E:</label><br>
+    <input type="text" id="E" class= "input-score"><br>
+    <br><input type="submit" id="submit" value="Calculate!"><br>
+    <!-- <br><button onclick="CalculateGPA()">Calculate !</button> -->
+    <script src='index.js'></script>
+
+  </form>
+
+<p id="Total Credits">hi</p>
+<p id="Total Scores">mother</p>
+<p id="GPA Result">fucker</p>
+
+
 
 </body>
 </html>
